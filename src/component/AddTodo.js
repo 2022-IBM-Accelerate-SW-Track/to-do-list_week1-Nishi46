@@ -42,7 +42,6 @@ class AddTodo extends Component {
         label="Add New Item"
         variant="outlined"
         onChange={this.handleChange}
-        value={this.state.content}
       />
       <Button
         style={{ marginLeft: "10px" }}
