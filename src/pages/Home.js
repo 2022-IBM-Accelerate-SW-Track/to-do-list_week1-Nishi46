@@ -9,6 +9,7 @@ class Home extends Component {
     super();
     this.state = {
       // create your empty list here call it todos.
+
       todos:[]
     };
   }
@@ -34,7 +35,7 @@ class Home extends Component {
         <h1>Todo's </h1>
         <Todos todos ={this.state.todos}/>
          <AddTodo addTodo = {this.addTodo }/> 
-
+        
       </div>
     );
   }
